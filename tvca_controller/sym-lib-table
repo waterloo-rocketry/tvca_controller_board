@@ -1,4 +1,0 @@
-(sym_lib_table
-  (version 7)
-  (lib (name "canhw")(type "KiCad")(uri "${KIPRJMOD}/canhw.kicad_sym")(options "")(descr ""))
-)
