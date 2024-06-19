@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "canhw")(type "KiCad")(uri "${KIPRJMOD}/canhw.kicad_sym")(options "")(descr ""))
+  (lib (name "TVCA_symbols")(type "KiCad")(uri "${KIPRJMOD}/TVCA_symbols.kicad_sym")(options "")(descr ""))
+)
