@@ -1399,7 +1399,7 @@
     (property "Value" "270 uF" (at 224.79 50.165 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (at 221.9452 52.07 0)
+    (property "Footprint" "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm" (at 221.9452 52.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 220.98 48.26 0)
