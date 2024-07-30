@@ -1594,7 +1594,7 @@
     (property "Value" "25 A" (at 171.45 39.37 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Fuse:Fuseholder_Keystone_3555-2" (at 171.45 40.132 90)
+    (property "Footprint" "canhw_footprints:Fuseholder_36-3557-15-ND" (at 171.45 40.132 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.keyelco.com/userAssets/file/M65p41.pdf" (at 171.45 41.91 0)
