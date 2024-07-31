@@ -841,7 +841,7 @@
     (uuid 9702ec13-c6b6-4d5b-9e0c-4da25049b7b7)
   )
 
-  (label "OUT1" (at 83.82 104.14 0) (fields_autoplaced)
+  (label "OUT_1" (at 83.82 104.14 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 0337e318-4b21-46eb-8246-48ab1c44c195)
   )
@@ -853,7 +853,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 3d30c4af-a303-4611-ade5-0bffe78120ad)
   )
-  (label "OUT2" (at 83.82 106.68 0) (fields_autoplaced)
+  (label "OUT_2" (at 83.82 106.68 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 3f1b5f36-777a-4f7d-bd88-e0c0f7455f74)
   )
