@@ -1750,7 +1750,7 @@
 
   (footprint "Package_SO:SOIC-28W_7.5x18.7mm_P1.27mm" (layer "F.Cu")
     (tstamp 4d3365b2-756c-4c8e-a2a2-737554c637dd)
-    (at 146.5 98.5)
+    (at 145.95 103.305)
     (descr "SOIC, 28 Pin (https://www.akm.com/akm/en/file/datasheet/AK5394AVS.pdf#page=23), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "SOIC SO")
     (property "Sheetfile" "tvca_controller.kicad_sch")
