@@ -1781,7 +1781,7 @@
   (symbol (lib_id "power:GND") (at 134.62 180.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1e6972b1-6ce5-4eca-b0cd-b289dba7d911)
-    (property "Reference" "#PWR041" (at 134.62 186.69 0)
+    (property "Reference" "#PWR013" (at 134.62 186.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 134.62 185.42 0)
@@ -1797,7 +1797,7 @@
     (instances
       (project "tvca_controller"
         (path "/f08602f6-65d5-48ec-b5dd-079a575e1be0"
-          (reference "#PWR041") (unit 1)
+          (reference "#PWR013") (unit 1)
         )
       )
     )
@@ -1832,7 +1832,7 @@
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 134.62 177.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2f45c921-7ca0-4929-bc43-1ec4bceee27c)
-    (property "Reference" "H3" (at 137.16 175.895 0)
+    (property "Reference" "H2" (at 137.16 175.895 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Mount" (at 137.16 178.435 0)
@@ -1848,7 +1848,7 @@
     (instances
       (project "tvca_controller"
         (path "/f08602f6-65d5-48ec-b5dd-079a575e1be0"
-          (reference "H3") (unit 1)
+          (reference "H2") (unit 1)
         )
       )
     )
@@ -1857,7 +1857,7 @@
   (symbol (lib_id "canhw:MCP2562") (at 58.42 88.9 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 34780f8a-ea88-4cee-9de6-212e539c7497)
-    (property "Reference" "U2" (at 57.785 82.55 0)
+    (property "Reference" "U1" (at 57.785 82.55 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "MCP2562" (at 57.785 85.09 0)
@@ -1880,7 +1880,7 @@
     (instances
       (project "tvca_controller"
         (path "/f08602f6-65d5-48ec-b5dd-079a575e1be0"
-          (reference "U2") (unit 1)
+          (reference "U1") (unit 1)
         )
       )
     )
@@ -1889,7 +1889,7 @@
   (symbol (lib_id "power:+5V") (at 31.75 120.65 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3b55de64-459b-4ec8-9677-52baae9c8bbc)
-    (property "Reference" "#PWR018" (at 31.75 124.46 0)
+    (property "Reference" "#PWR01" (at 31.75 124.46 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 31.75 116.84 0)
@@ -1905,7 +1905,7 @@
     (instances
       (project "tvca_controller"
         (path "/f08602f6-65d5-48ec-b5dd-079a575e1be0"
-          (reference "#PWR018") (unit 1)
+          (reference "#PWR01") (unit 1)
         )
       )
     )
@@ -1940,7 +1940,7 @@
   (symbol (lib_id "power:GND") (at 81.28 100.33 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4a318d56-8360-4e3e-a802-eb0ae88da1dc)
-    (property "Reference" "#PWR08" (at 81.28 106.68 0)
+    (property "Reference" "#PWR06" (at 81.28 106.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 81.28 105.41 0)
@@ -1956,7 +1956,7 @@
     (instances
       (project "tvca_controller"
         (path "/f08602f6-65d5-48ec-b5dd-079a575e1be0"
-          (reference "#PWR08") (unit 1)
+          (reference "#PWR06") (unit 1)
         )
       )
     )
@@ -1965,7 +1965,7 @@
   (symbol (lib_id "Device:R_US") (at 31.75 137.16 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 51c24560-fc2b-4bd0-9daf-541238543f4e)
-    (property "Reference" "R9" (at 34.29 136.525 0)
+    (property "Reference" "R1" (at 34.29 136.525 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "330R" (at 34.29 139.065 0)
@@ -1982,7 +1982,7 @@
     (instances
       (project "tvca_controller"
         (path "/f08602f6-65d5-48ec-b5dd-079a575e1be0"
-          (reference "R9") (unit 1)
+          (reference "R1") (unit 1)
         )
       )
     )
@@ -1991,7 +1991,7 @@
   (symbol (lib_id "power:+5V") (at 123.19 48.26 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 522676bb-270c-475a-817a-8cc9cf7ab98a)
-    (property "Reference" "#PWR09" (at 123.19 52.07 0)
+    (property "Reference" "#PWR010" (at 123.19 52.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 123.19 44.45 0)
@@ -2007,7 +2007,7 @@
     (instances
       (project "tvca_controller"
         (path "/f08602f6-65d5-48ec-b5dd-079a575e1be0"
-          (reference "#PWR09") (unit 1)
+          (reference "#PWR010") (unit 1)
         )
       )
     )
@@ -2041,7 +2041,7 @@
   (symbol (lib_id "power:+5V") (at 237.49 111.76 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5d245954-f402-4fdd-93d4-2721f4ff444c)
-    (property "Reference" "#PWR014" (at 237.49 115.57 0)
+    (property "Reference" "#PWR019" (at 237.49 115.57 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 237.49 107.95 0)
@@ -2057,7 +2057,7 @@
     (instances
       (project "tvca_controller"
         (path "/f08602f6-65d5-48ec-b5dd-079a575e1be0"
-          (reference "#PWR014") (unit 1)
+          (reference "#PWR019") (unit 1)
         )
       )
     )
@@ -2066,7 +2066,7 @@
   (symbol (lib_id "power:GND") (at 248.92 120.65 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6e3f59b0-05bc-4634-8e1b-21ee0f29e5c8)
-    (property "Reference" "#PWR015" (at 248.92 127 0)
+    (property "Reference" "#PWR020" (at 248.92 127 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 248.92 125.73 0)
@@ -2082,7 +2082,7 @@
     (instances
       (project "tvca_controller"
         (path "/f08602f6-65d5-48ec-b5dd-079a575e1be0"
-          (reference "#PWR015") (unit 1)
+          (reference "#PWR020") (unit 1)
         )
       )
     )
@@ -2091,7 +2091,7 @@
   (symbol (lib_id "Device:C") (at 54.61 48.26 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6eb19b57-c92b-48d2-b7c8-149534becc28)
-    (property "Reference" "C1" (at 54.61 41.91 90)
+    (property "Reference" "C2" (at 54.61 41.91 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "27pF" (at 54.61 44.45 90)
@@ -2108,7 +2108,7 @@
     (instances
       (project "tvca_controller"
         (path "/f08602f6-65d5-48ec-b5dd-079a575e1be0"
-          (reference "C1") (unit 1)
+          (reference "C2") (unit 1)
         )
       )
     )
@@ -2117,7 +2117,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 256.54 140.97 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6f842e79-582d-4162-8ed6-5c959a81e3ed)
-    (property "Reference" "TP3" (at 259.08 143.637 0)
+    (property "Reference" "TP1" (at 259.08 143.637 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "5V current draw" (at 259.08 146.177 0)
@@ -2133,7 +2133,7 @@
     (instances
       (project "tvca_controller"
         (path "/f08602f6-65d5-48ec-b5dd-079a575e1be0"
-          (reference "TP3") (unit 1)
+          (reference "TP1") (unit 1)
         )
       )
     )
@@ -2142,7 +2142,7 @@
   (symbol (lib_id "Device:R_US") (at 50.8 137.16 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6fcebb40-bd0a-470a-9375-59dfb767aedd)
-    (property "Reference" "R1" (at 53.34 136.525 0)
+    (property "Reference" "R2" (at 53.34 136.525 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 53.34 139.065 0)
@@ -2159,7 +2159,7 @@
     (instances
       (project "tvca_controller"
         (path "/f08602f6-65d5-48ec-b5dd-079a575e1be0"
-          (reference "R1") (unit 1)
+          (reference "R2") (unit 1)
         )
       )
     )
@@ -2168,7 +2168,7 @@
   (symbol (lib_id "power:GND") (at 134.62 166.37 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 72d0cb6b-2183-4211-b370-b63a2b00d238)
-    (property "Reference" "#PWR035" (at 134.62 172.72 0)
+    (property "Reference" "#PWR012" (at 134.62 172.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 134.62 171.45 0)
@@ -2184,7 +2184,7 @@
     (instances
       (project "tvca_controller"
         (path "/f08602f6-65d5-48ec-b5dd-079a575e1be0"
-          (reference "#PWR035") (unit 1)
+          (reference "#PWR012") (unit 1)
         )
       )
     )
@@ -2193,7 +2193,7 @@
   (symbol (lib_id "power:GND") (at 228.6 143.51 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7e5db124-6548-4590-ad1d-b254a281b6a0)
-    (property "Reference" "#PWR012" (at 228.6 149.86 0)
+    (property "Reference" "#PWR017" (at 228.6 149.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 228.6 148.59 0)
@@ -2209,7 +2209,7 @@
     (instances
       (project "tvca_controller"
         (path "/f08602f6-65d5-48ec-b5dd-079a575e1be0"
-          (reference "#PWR012") (unit 1)
+          (reference "#PWR017") (unit 1)
         )
       )
     )
@@ -2243,7 +2243,7 @@
   (symbol (lib_id "power:GND") (at 147.32 180.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 83e7f10a-ae81-43b7-9be3-ed509990d6a7)
-    (property "Reference" "#PWR042" (at 147.32 186.69 0)
+    (property "Reference" "#PWR015" (at 147.32 186.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 147.32 185.42 0)
@@ -2259,7 +2259,7 @@
     (instances
       (project "tvca_controller"
         (path "/f08602f6-65d5-48ec-b5dd-079a575e1be0"
-          (reference "#PWR042") (unit 1)
+          (reference "#PWR015") (unit 1)
         )
       )
     )
@@ -2297,7 +2297,7 @@
   (symbol (lib_id "power:+5V") (at 229.87 119.38 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 907b0d58-83dd-41ec-bd3e-43c1d8f0c875)
-    (property "Reference" "#PWR013" (at 229.87 123.19 0)
+    (property "Reference" "#PWR018" (at 229.87 123.19 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 229.87 115.57 0)
@@ -2313,7 +2313,7 @@
     (instances
       (project "tvca_controller"
         (path "/f08602f6-65d5-48ec-b5dd-079a575e1be0"
-          (reference "#PWR013") (unit 1)
+          (reference "#PWR018") (unit 1)
         )
       )
     )
@@ -2322,7 +2322,7 @@
   (symbol (lib_id "power:+5V") (at 50.8 130.81 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 94f5bf90-f32d-4863-8de6-d443136a07df)
-    (property "Reference" "#PWR01" (at 50.8 134.62 0)
+    (property "Reference" "#PWR05" (at 50.8 134.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 50.8 127 0)
@@ -2338,7 +2338,7 @@
     (instances
       (project "tvca_controller"
         (path "/f08602f6-65d5-48ec-b5dd-079a575e1be0"
-          (reference "#PWR01") (unit 1)
+          (reference "#PWR05") (unit 1)
         )
       )
     )
@@ -2372,7 +2372,7 @@
   (symbol (lib_id "Device:C") (at 41.91 101.6 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ba3b7236-40e9-4d87-891a-3baac3278979)
-    (property "Reference" "C3" (at 45.72 100.965 0)
+    (property "Reference" "C1" (at 45.72 100.965 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10uF" (at 45.72 103.505 0)
@@ -2389,7 +2389,7 @@
     (instances
       (project "tvca_controller"
         (path "/f08602f6-65d5-48ec-b5dd-079a575e1be0"
-          (reference "C3") (unit 1)
+          (reference "C1") (unit 1)
         )
       )
     )
@@ -2398,7 +2398,7 @@
   (symbol (lib_id "power:GND") (at 147.32 166.37 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bac4e04e-a725-4d37-b1a6-a65e08289a51)
-    (property "Reference" "#PWR036" (at 147.32 172.72 0)
+    (property "Reference" "#PWR014" (at 147.32 172.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 147.32 171.45 0)
@@ -2414,7 +2414,7 @@
     (instances
       (project "tvca_controller"
         (path "/f08602f6-65d5-48ec-b5dd-079a575e1be0"
-          (reference "#PWR036") (unit 1)
+          (reference "#PWR014") (unit 1)
         )
       )
     )
@@ -2448,7 +2448,7 @@
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 147.32 163.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c511ff4c-a348-4eb8-8d6a-c8074fbddc4e)
-    (property "Reference" "H2" (at 149.86 161.925 0)
+    (property "Reference" "H3" (at 149.86 161.925 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Mount" (at 149.86 164.465 0)
@@ -2464,7 +2464,7 @@
     (instances
       (project "tvca_controller"
         (path "/f08602f6-65d5-48ec-b5dd-079a575e1be0"
-          (reference "H2") (unit 1)
+          (reference "H3") (unit 1)
         )
       )
     )
@@ -2499,7 +2499,7 @@
   (symbol (lib_id "Device:C") (at 54.61 60.96 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c821db7c-7557-4cd8-b798-38fc72f05997)
-    (property "Reference" "C2" (at 54.61 54.61 90)
+    (property "Reference" "C3" (at 54.61 54.61 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "27pF" (at 54.61 57.15 90)
@@ -2516,7 +2516,7 @@
     (instances
       (project "tvca_controller"
         (path "/f08602f6-65d5-48ec-b5dd-079a575e1be0"
-          (reference "C2") (unit 1)
+          (reference "C3") (unit 1)
         )
       )
     )
@@ -2550,7 +2550,7 @@
   (symbol (lib_id "Device:R_US") (at 217.17 119.38 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cf3c00ba-806b-472c-83d7-154dd6526f93)
-    (property "Reference" "R2" (at 217.17 114.3 90)
+    (property "Reference" "R3" (at 217.17 114.3 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "200mR 1%" (at 217.17 116.84 90)
@@ -2567,7 +2567,7 @@
     (instances
       (project "tvca_controller"
         (path "/f08602f6-65d5-48ec-b5dd-079a575e1be0"
-          (reference "R2") (unit 1)
+          (reference "R3") (unit 1)
         )
       )
     )
@@ -2576,7 +2576,7 @@
   (symbol (lib_id "power:+5V") (at 96.52 125.73 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d0a0baf7-9d94-4f19-b46b-3439327fb378)
-    (property "Reference" "#PWR05" (at 96.52 129.54 0)
+    (property "Reference" "#PWR07" (at 96.52 129.54 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 96.52 121.92 0)
@@ -2592,7 +2592,7 @@
     (instances
       (project "tvca_controller"
         (path "/f08602f6-65d5-48ec-b5dd-079a575e1be0"
-          (reference "#PWR05") (unit 1)
+          (reference "#PWR07") (unit 1)
         )
       )
     )
@@ -2601,7 +2601,7 @@
   (symbol (lib_id "power:GND") (at 96.52 181.61 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d1afe8ad-04e2-4b5c-b812-2fd441907870)
-    (property "Reference" "#PWR06" (at 96.52 187.96 0)
+    (property "Reference" "#PWR08" (at 96.52 187.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 96.52 186.69 0)
@@ -2617,7 +2617,7 @@
     (instances
       (project "tvca_controller"
         (path "/f08602f6-65d5-48ec-b5dd-079a575e1be0"
-          (reference "#PWR06") (unit 1)
+          (reference "#PWR08") (unit 1)
         )
       )
     )
@@ -2626,7 +2626,7 @@
   (symbol (lib_id "power:GND") (at 107.95 133.35 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d8428632-634a-41b2-80fe-74ed10695a99)
-    (property "Reference" "#PWR07" (at 107.95 139.7 0)
+    (property "Reference" "#PWR09" (at 107.95 139.7 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 107.95 138.43 0)
@@ -2642,7 +2642,7 @@
     (instances
       (project "tvca_controller"
         (path "/f08602f6-65d5-48ec-b5dd-079a575e1be0"
-          (reference "#PWR07") (unit 1)
+          (reference "#PWR09") (unit 1)
         )
       )
     )
@@ -2679,7 +2679,7 @@
   (symbol (lib_id "power:GND") (at 123.19 66.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e5266943-208a-4c1b-b1c3-bc9514b4bd02)
-    (property "Reference" "#PWR010" (at 123.19 72.39 0)
+    (property "Reference" "#PWR011" (at 123.19 72.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 123.19 71.12 0)
@@ -2695,7 +2695,7 @@
     (instances
       (project "tvca_controller"
         (path "/f08602f6-65d5-48ec-b5dd-079a575e1be0"
-          (reference "#PWR010") (unit 1)
+          (reference "#PWR011") (unit 1)
         )
       )
     )
@@ -2704,7 +2704,7 @@
   (symbol (lib_id "power:GND") (at 185.42 130.81 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ea583560-8c96-45cf-ac19-0bb210a62006)
-    (property "Reference" "#PWR011" (at 185.42 137.16 0)
+    (property "Reference" "#PWR016" (at 185.42 137.16 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 185.42 135.89 0)
@@ -2720,7 +2720,7 @@
     (instances
       (project "tvca_controller"
         (path "/f08602f6-65d5-48ec-b5dd-079a575e1be0"
-          (reference "#PWR011") (unit 1)
+          (reference "#PWR016") (unit 1)
         )
       )
     )
@@ -2729,7 +2729,7 @@
   (symbol (lib_id "canhw:PIC18F26K83") (at 73.66 161.29 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f96bd30a-e175-4ff8-8b0c-3333fa776c0d)
-    (property "Reference" "U1" (at 73.025 138.43 0)
+    (property "Reference" "U2" (at 73.025 138.43 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "PIC18F26K83" (at 73.025 140.97 0)
@@ -2772,7 +2772,7 @@
     (instances
       (project "tvca_controller"
         (path "/f08602f6-65d5-48ec-b5dd-079a575e1be0"
-          (reference "U1") (unit 1)
+          (reference "U2") (unit 1)
         )
       )
     )
